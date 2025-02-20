@@ -13,6 +13,7 @@ const MailboxForm = ({ addBox }) => {
 
     return (
         <form onSubmit={handleSubmit}>
+            <h1>Open a New Mailbox </h1>
             <label>
                 Box Owner:
                 <input
